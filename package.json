@@ -1,30 +1,130 @@
 {
+  
+
+  
+
   "name": "event-management-server",
+  
+
+  
+
   "version": "1.0.0",
-  "description": "Event Management System - Backend Server",
+  
+
+  
+
   "main": "index.js",
+  
+
+  
+
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+  
+
+  
+
+    
+
+  
+
+  "start": "node index.js",
+  
+
+  
+
+    
+
+  
+
+  "dev": "nodemon index.js",
+  
+
+  
+
+    
+
+  
+
+  "test": "echo \"Error: no test specified\" && exit 1"
+  
+
+  
+
   },
-  "keywords": [
-    "event",
-    "management",
-    "mern"
-  ],
+  
+
+  
+
+  "keywords": [],
+  
+
+  
+
   "author": "",
+  
+
+  
+
   "license": "ISC",
+  
+
+  
+
+  "description": "",
+  
+
+  
+
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.22.1",
-    "mongodb": "^6.21.0",
-    "multer": "^1.4.5-lts.1",
-    "nodemailer": "^6.9.7",
-    "stripe": "^14.7.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
+  
+
+  
+
+    
+
+  
+
+  "cors": "^2.8.5",
+  
+
+  
+
+    
+
+  
+
+  "dotenv": "^17.2.3",
+  
+
+  
+
+    
+
+  
+
+ "express": "^4.18.2",
+
+  
+
+  
+
+    
+
+  
+
+  "mongodb": "^7.0.0",
+  
+
+  
+
+    
+
+  
+
+  "stripe": "^20.0.0"
+  
+
+  
+
   }
 }
